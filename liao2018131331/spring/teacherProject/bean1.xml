@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="teacher1" class="liao2018131331.spring.teacherProject.Teacher">
+        <constructor-arg index="0" value="李四"></constructor-arg>
+        <constructor-arg index="1" value="2018131332"></constructor-arg>
+        <constructor-arg index="2" value="26"></constructor-arg>
+        <constructor-arg index="3" value="15625860184"></constructor-arg>
+
+    </bean>
+
+    <bean id ="teacher2" class="liao2018131331.spring.teacherProject.Teacher" >
+        <property name="tusername" value="张三"></property>
+        <property name="tnum" value="2018131331"></property>
+        <property name="age" value="25"></property>
+        <property name="telephone" value="13824699637"></property>
+    </bean>
+
+</beans>

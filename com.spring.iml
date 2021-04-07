@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Bean2" removed="false">
+          <file>file://$MODULE_DIR$/src/com/spring/annotation/bean2.xml</file>
+          <file>file://$MODULE_DIR$/src/com/spring/bean01/bean2.xml</file>
+          <file>file://$MODULE_DIR$/src/com/spring/annotation02/beans.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>
